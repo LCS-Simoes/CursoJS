@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro programa</title>
-    <!-- Usando a tag direto, eu estou mexendo dentro da tag só que em css, aparentemente não posso comentar dentro da tag style-->
-    <style> 
-            
+    
+    <style>  
             body {
             background-color:blueviolet;
             color:white;
@@ -21,11 +20,12 @@
     <h1>Hello World!</h1>
     <p>Bora começar mais um curso</p>
     <script>
-        /*window.alert("Meu primeiro alerta")
-        window.confirm("Será que vou terminar?")
-        window.prompt("Qual é seu nome?") */ 
-        <!-- window é opicional, poderia ser somente alert, porém não ira abrir a janela para mostrar, capturar e confirmar para o usuario -->
+        var n1 = Number(window.prompt("Digite um numero")) // String por causa do prompt
+        var n2 = Number(window.prompt("Digite outro numero")) // String por causa do prompt
+        var sum = n1 + n2
+        window.alert(`A soma entra ${n1} e ${n2} é igual a ${sum}`) // O + serve como concatenação então basicamente ele está concatenando os números e não somando. 
+        // numero + numero significa que é para adição
+        // string + string significa que é concatenação
     </script>
-    
 </body>
 </html>

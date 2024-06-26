@@ -1,0 +1,6 @@
+Posso usar só Number() e o proprio javascript se vira.
+Tem como fazer direto a conversão e seria: var n1 = Number.parseInt(window.prompt("Digite um numero")) agora ele passa a valer como inteiro.
+Pra string utiliza n.toString(Variavel) ou String() e detalhe posso usar isso na propria concatenação
+Nessa nova versão não precisamos mais ficar digitando  "O aluno ' + nome + ' com idade ' + idade + ' tirou a nota ' + nota", agora podemos usar o placeholder, porém devemos usar
+com crase `` exemplo: `O aluno ${nome} com idade ${idade} tirou a nota ${nota}`
+Métodos .length() mostra a quantidade de letras, o .toUpperCase() coloca as letras em maisculos e o .toLowerCase() coloca todas as letras em minusculas

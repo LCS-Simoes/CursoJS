@@ -1,0 +1,15 @@
+Em java script pra comentar pode se utilizar: // (Serve pra colocar um comentário em uma unica linha) ou /*  */ (Consegue fazer comentários de mais de uma linha)
+Coloquei o exemplo na aula04
+
+Em java script: 
+ = significa recebe.
+ = NULL significa sem nada dentro.
+ A palavra VAR em javascript é a criação de uma variavel
+ Eu posso utilizar para delimitar uma string as seguintes aspas: " ` '
+ Explicação: 
+ 1 - " 
+ 2 - `
+ 3 - ' 
+ Regras de nomenclaturas: Pode começar com letra, $ ou _ e não pode começar com números e ter espaços.
+ Utilizar nomes coerentes e fáceis para variaveis.
+ Typeof é um jeito de trabalhar com tipos de um jeito melhor / mostrar o tipo da variavel

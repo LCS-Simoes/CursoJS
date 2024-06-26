@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro programa</title>
-    <!-- Usando a tag direto, eu estou mexendo dentro da tag só que em css, aparentemente não posso comentar dentro da tag style-->
-    <style> 
-            
+    
+    <style>  
             body {
             background-color:blueviolet;
             color:white;
@@ -21,11 +20,8 @@
     <h1>Hello World!</h1>
     <p>Bora começar mais um curso</p>
     <script>
-        /*window.alert("Meu primeiro alerta")
-        window.confirm("Será que vou terminar?")
-        window.prompt("Qual é seu nome?") */ 
-        <!-- window é opicional, poderia ser somente alert, porém não ira abrir a janela para mostrar, capturar e confirmar para o usuario -->
+        var nome = window.prompt("Qual é seu nome?") //Variavel nome recebe o resultado do prompt
+        window.alert("Prazer em te conhecer," + nome) //Pra juntar string e variavel só utilizar o +
     </script>
-    
 </body>
 </html>
