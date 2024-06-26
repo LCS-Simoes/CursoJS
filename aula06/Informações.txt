@@ -4,3 +4,6 @@ Pra string utiliza n.toString(Variavel) ou String() e detalhe posso usar isso na
 Nessa nova versão não precisamos mais ficar digitando  "O aluno ' + nome + ' com idade ' + idade + ' tirou a nota ' + nota", agora podemos usar o placeholder, porém devemos usar
 com crase `` exemplo: `O aluno ${nome} com idade ${idade} tirou a nota ${nota}`
 Métodos .length() mostra a quantidade de letras, o .toUpperCase() coloca as letras em maisculos e o .toLowerCase() coloca todas as letras em minusculas
+Para eu fixar a quantidade de números após a virgula em numeros flutuantes eu posso utilizar o método .toFixed(quantidade de numeros após a virgula)
+Como no Brasil utilizamos virgula e a programação as casas decimais são após o ponto pode mudar através do .toFixed().replace('.',',') assim eu troco o ponto por vírgula.  
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // Formata a varavel pra moeda monetária local daquele país.
