@@ -1,0 +1,3 @@
+JavaScript não é mais necessário utilizar ponto e vírgula.
+Na verdade javascript não é baseado ou uma "nova" linguagem em java. Na verdade ele só tem esse nome porque era a alta na época devido a fama da linguagem java.
+O UTF-8 na verdade é a forma de definir os caracteres de acentuação do seu teclado.
