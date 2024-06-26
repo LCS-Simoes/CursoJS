@@ -8,7 +8,7 @@ Em java script:
  Eu posso utilizar para delimitar uma string as seguintes aspas: " ` '
  Explicação: 
  1 - " 
- 2 - `
+ 2 - ` Serve pra placeholders pois ai ele identifica o mesmo, caso contrario sem crase tudo passa a ser como uma "string" ou texto direto
  3 - ' 
  Regras de nomenclaturas: Pode começar com letra, $ ou _ e não pode começar com números e ter espaços.
  Utilizar nomes coerentes e fáceis para variaveis.

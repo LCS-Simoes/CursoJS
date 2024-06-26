@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5 - DOM</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos sobre o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <div id="msg">Clique em mim</div>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <script>
+        //window.document.write(window.document.characterSet) // mostra o tipo de caracteres no nosso site
+        //var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1] // ele pega mais de um elemento por isso "Elements"
+        //colocando o [Numero] eu estou selecionando o p que eu desejo
+        window.document.write(`Esta escrito assim ` + p1.innerText) // innerText é o elemento que está dentro do primeiro paragrafo
+        p1.style.color = 'red'
+        //window.alert(p1.innerText) // pega só o texto
+        //window.alert(p1.innerHTML) // pega o texto + html de uma vez
+        //var d = window.document.getElementById('msg')
+        //d.style.background = 'green'
+        //window.document.getElementById('msg').innerText = 'Olá' // Estou fazendo o texto receber Olá
+        var d = window.document.querySelector('div#msg') // toda classe é mencionado por . e quando é id é #
+        d.style.background= 'blue'
+    </script>
+</body>
+</html>

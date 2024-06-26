@@ -1,0 +1,8 @@
+mouseenter - mousemove - mousedown - mouseup - click - mouseout são todos eventos
+Em java script uma função tem que ser nomeada como "function" antes ou se não ela será uma função anonima
+exemplo function ação() { 
+    ~~~~~~ código ~~~~~~~~
+}
+
+Como detectar erros?
+Só ir no google F12 e ir no elements

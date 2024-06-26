@@ -1,0 +1,13 @@
+O dom é um Document Object model, é um conjunto de objetos dentro do navegador
+que da acesso a componentes internos dentro do site.
+Devemos fazer a Árvore dom de seu site, ela começa dentro de uma window, lá eu posso colocar vários objetos exemplo:
+location, document e history. Dentro do document o que temos lá dentro é o html gerando o head e o body
+Head temos: meta, title
+body: h1, p, p, div e  dentro de um dos p temos strong, essa é árvore dom do nosso site
+
+Métodos de acesso
+1 - Marca / metodo: .getlementsByTagName()
+2 - ID
+3 - Nome / metodo: getElementsByName() 
+4 - Classe  / metodo: getElementsByClassName()
+5 - Ou por seletor / CSS / metodo: .querySelector()

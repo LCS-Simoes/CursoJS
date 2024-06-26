@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 06</title>
+
+    <style>
+        div#area {
+            background: #22bb22;
+            font: normal 20pt Arial;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="area"> 
+        Interagir
+    </div>
+    <script>
+        var area = window.document.getElementById('area')
+        //Adiciono os eventos aqui no lugar de ser no HTML
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
+
+        function clicar(){
+            area.innerText = 'Cliclou'
+            area.style.backrground = 'red'
+        }
+
+        function entrar(){
+            area.innerText = 'Entrou'
+        }
+
+        function sair(){
+            area.innerText = 'Saiu'
+            area.style.background = '#22b22'
+        }
+        
+
+    </script>
+</body>
+</html>
