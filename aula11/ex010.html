@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="resultado">
+
+    </div>
+    <script>
+        function calcular(){
+            var txtvelocidade = window.document.querySelector('input#txtvel')
+            var resultado = window.document.querySelector('div#resultado')
+            var vel = Number(txtvelocidade.value)
+            resultado.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}</strong> Km/h</p>`
+            if (vel > 60) {
+                resultado.innerHTML += `<p>Voce foi <strong> MULTADO! </strong>`
+            }
+            resultado.innerHTML += '<p>Dirija com segurança!' // += pra concatenar com outro paragráfo
+        }
+    </script>
+</body>
+</html>

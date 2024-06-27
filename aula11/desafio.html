@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>Sistema de verificação de nacionalidade</h1>
+    Informe sua nacionalidade: <input type="text" id="txtpais">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="resultado">
+
+    </div>
+    <script>
+        function verificar(){
+            var txnacional = window.document.querySelector('input#txtpais')
+            var res = window.document.querySelector('div#resultado')
+            //Se eu não utilizo o .value ele não analise o valor da minha variavel então ele sempre cairia no ELSE
+            if(txnacional.value == 'Brasil'){
+                res.innerHTML = `<p>Você é um <strong>brasileiro</strong></p>`
+            }else {
+                res.innerHTML = `<p>Voce é um estrangeiro do país <strong>${txnacional.value}</strong></p>` 
+            }
+            res.innerHTML += `Seja bem vindo`
+            
+        }
+    </script>
+</body>
+</html>
